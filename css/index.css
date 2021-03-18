@@ -87,17 +87,17 @@ nav a:active {
     border-style: inset;
 }
 
-.bottomNavBar {
+#bottomNavBar {
     margin-left: 310px;
     margin-right: 310px;
     font-size: 20px;
 }
             
-.bottomNavBar #spacing {
+#bottomNavBar .spacing {
     width: 30px;
 }
 
-.facebook {
+#facebook {
     background: url('../images/spritePack.png') no-repeat -142px -32px;
 	width: 65px;
 	height: 65px;
@@ -105,11 +105,11 @@ nav a:active {
     padding-right: 10px;
 }
 
-.facebook:hover {
+#facebook:hover {
     background: url('../images/spritePack.png') no-repeat -39px -33px;
 }
 
-.youtube {
+#youtube {
     background: url('../images/spritePack.png') no-repeat -146px -131px;
 	width: 65px;
 	height: 65px;
@@ -117,18 +117,18 @@ nav a:active {
     padding-right: 10px;
 }
 
-.youtube:hover {
+#youtube:hover {
     background: url('../images/spritePack.png') no-repeat -39px -131px;
 }
 
-.twitter {
+#twitter {
     background: url('../images/spritePack.png') no-repeat -143px -219px;
 	width: 65px;
 	height: 65px;
     float: left;
 }
 
-.twitter:hover {
+#twitter:hover {
     background: url('../images/spritePack.png') no-repeat -39px -219px;
 }
 

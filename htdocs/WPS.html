@@ -7,6 +7,14 @@
         <meta name="author" content="Gian Marco de la Cruz">
         <meta name="description" content="Contains information about the West Philiipine Sea and the territories within its area.">
         
+        <!--
+        UPDATES
+        - removed id "navButton"
+        - changed id "spacing" to class "spacing"
+        - changed class "bottomNavBar" to class "bottomNavBar"
+        - changed all image class sprites' classes into ids
+        -->
+        
         <link rel="stylesheet" type="text/css" href="../css/WPS.css">
         <link rel="icon" href="../images/favicon.png">
     </head>
@@ -21,10 +29,10 @@
         <nav>
             <table>
                 <tr>
-                    <a href="../index.html" id="navButton">Home</a>
-                    <a href="philippinesAndTheWPS.html" id="navButton">Philippines' Side</a>
-                    <a href="chinaAndTheWPS.html" id="navButton">China's Side</a>
-                    <a href="about.html" id="navButton">About</a>
+                    <a href="../index.html" >Home</a>
+                    <a href="philippinesAndTheWPS.html" >Philippines' Side</a>
+                    <a href="chinaAndTheWPS.html" >China's Side</a>
+                    <a href="about.html" >About</a>
                 </tr>
             </table>
         </nav>
@@ -39,7 +47,7 @@
         </aside>
         <article>
             <h1 id="contentHeader">The West Philippine Sea</h1>
-            <div class="imgGroup1">
+            <div id="imgGroup1">
                     <img id="imgGroup" src="../images/page2PicGroup1.png" alt="Left: A photo of Pagasa Island, the second-largest island in the Spratly group of islands and is the largest island in the Spratly group of islands controlled by the Philippines. Right: A photo of Chinese military forces occupying Mischief Reef.">
                     <table class="caption">
                         <tr>
@@ -52,7 +60,7 @@
             <div class="intro">
                 <p style="text-align: justify">The West Philippine Sea is a large body of water located at the western waters of the Philippine Area of Responsibility. It refers to a eastern portion of the South China Sea itself, although it can be confused for the South China Sea as a whole. The West Philippine Sea is controlled by the Philippine government, though this has been disputed by the Republic of China. The territory of the West Philippine Sea contains Scarborough Shoal and multiple islands belonging to the Spratly group of islands.</p>
             </div>
-            <section class="scarborough" style="height: 600px;">
+            <section id="scarborough" style="height: 600px;">
                 <div style="float: left">
                     <img src="../images/scarboroughShoalTop.webp" alt="A view of Scarborough Shoal from above. Source: [A view of Scarborough Shoal from above.]. (n.d.). Retrieved from https://amti.csis.org/scarborough-shoal/" style="height: 500px;">
                     <p class="caption" style="width: 500px;">A view of Scarborough Shoal from above. Source: [A view of Scarborough Shoal from above.]. (n.d.). Retrieved from https://amti.csis.org/scarborough-shoal/</p>
@@ -62,7 +70,7 @@
                     <p style="text-align: justify">Scarborough Shoal, also known as Panatag Shoal is a landmass that is legally considered as a rock and is located 120 nautical miles west of Luzon. According to the Asia Maritime Transparency Initiative (n.d.), no manmade structures have been built at Scarborough Shoal. Despite numerous sources, including maps, stating that the area is within Philippine territory, Chinese vessels patrol around the area, basically giving China control over the region.</p>
                 </div>
             </section>
-            <section class="spratly" style="height: 1020px;">
+            <section id="spratly" style="height: 1020px;">
                 <div style="float: right">
                     <img src="../images/westYork.webp" alt="A view of West York Island. West York Island is one of the islands belonging to the Spratly group of islands that is under Philippine control. Source: [A view of West York Island from above.]. (n.d.). Retrieved from https://amti.csis.org/west-york-island/" style="height: 400px;">
                     <p class="caption" style="width: 590px;">A view of West York Island. West York Island is one of the islands belonging to the Spratly group of islands that is under Philippine control. Source: [A view of West York Island from above.]. (n.d.). Retrieved from https://amti.csis.org/west-york-island/</p>
@@ -85,7 +93,7 @@
                     </ol>
                 </div>
             </section>
-            <section class="references">
+            <section id="references">
                 <div>References</div>
                 <ul>
                     <li>Asia Maritime Transparency Initiative (n.d.). Scarborough Shoal. Retrieved from <a href="https://amti.csis.org/scarborough-shoal/">https://amti.csis.org/scarborough-shoal/</a></li>
@@ -94,27 +102,27 @@
             </section>
         </article>
         <footer>
-            <table class="bottomNavBar">
+            <table id="bottomNavBar">
                 <tr>
-                    <td id="navButton"><a href="../index.html">Home</a></td>
-                    <td id="spacing"></td>
-                    <td id="navButton"><a href="philippinesAndTheWPS.html">Philippines' Side</a></td>
-                    <td id="spacing"></td>
-                    <td id="navButton"><a href="chinaAndTheWPS.html">China's Side</a></td>
-                    <td id="spacing"></td>
-                    <td id="navButton"><a href="about.html">About</a></td>
+                    <td ><a href="../index.html">Home</a></td>
+                    <td class="spacing"></td>
+                    <td ><a href="philippinesAndTheWPS.html">Philippines' Side</a></td>
+                    <td class="spacing"></td>
+                    <td ><a href="chinaAndTheWPS.html">China's Side</a></td>
+                    <td class="spacing"></td>
+                    <td ><a href="about.html">About</a></td>
                 </tr>
             </table>
             <div>
                 <p style="font-size: 15px;">These links lead to sites managed by the <b>Presidential Communications Operations Office</b>, and are good sites if you want to learn more about pressing issues in the Philippines.</p>
             </div>
             <div style="margin: 0px 505px;">
-                <a class="facebook" href="https://www.facebook.com/pcoogov"></a>
-                <a class="youtube" href="https://www.youtube.com/user/RTVMalacanang/videos"></a>
-                <a class="twitter" href="https://twitter.com/pcoogov"></a>
+                <a id="facebook" href="https://www.facebook.com/pcoogov"></a>
+                <a id="youtube" href="https://www.youtube.com/user/RTVMalacanang/videos"></a>
+                <a id="twitter" href="https://twitter.com/pcoogov"></a>
                 <br><br>
             </div>
-            <p>westphilsea.com</p>
+            <p>gdc218.github.io</p>
         </footer>
     </body>
 </html>

@@ -46,10 +46,6 @@ a {
     text-decoration: none;
 }
 
-.imgGroup1 #imgGroup {
-    width: 1200px;
-}
-
 nav a {
     display: table-cell;
 }
@@ -90,23 +86,22 @@ aside {
     margin-right: 20px;
 }
 
-article .references{
+article #references{
     font-size: 15px;
 }
 
-article .references a {
+article #references a {
     color: black;
     text-decoration: underline;
 }
 
 
-.bottomNavBar {
-    margin-left: 380px;
-    margin-right: 325px;
+#bottomNavBar {
+    margin: 0px 350px;
     font-size: 20px;
 }
             
-.bottomNavBar #spacing {
+#bottomNavBar .spacing {
     width: 30px;
 }
             
@@ -123,7 +118,7 @@ article .references a {
     font-size: 50px;
 }
 
-.facebook {
+#facebook {
     background: url('../images/spritePack.png') no-repeat -142px -32px;
 	width: 65px;
 	height: 65px;
@@ -131,11 +126,11 @@ article .references a {
     padding-right: 10px;
 }
 
-.facebook:hover {
+#facebook:hover {
     background: url('../images/spritePack.png') no-repeat -39px -33px;
 }
 
-.youtube {
+#youtube {
     background: url('../images/spritePack.png') no-repeat -146px -131px;
 	width: 65px;
 	height: 65px;
@@ -143,18 +138,18 @@ article .references a {
     padding-right: 10px;
 }
 
-.youtube:hover {
+#youtube:hover {
     background: url('../images/spritePack.png') no-repeat -39px -131px;
 }
 
-.twitter {
+#twitter {
     background: url('../images/spritePack.png') no-repeat -143px -219px;
 	width: 65px;
 	height: 65px;
     float: left;
 }
 
-.twitter:hover {
+#twitter:hover {
     background: url('../images/spritePack.png') no-repeat -39px -219px;
 }
 
